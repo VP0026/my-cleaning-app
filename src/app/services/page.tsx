@@ -166,7 +166,7 @@ export default function ServicesPage() {
                 <div className="order-1 lg:order-2">
                   <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                     <Image
-                      src="/images/services/bond-cleaning-v2.jpg"
+                      src="/images/services/bond-cleaning.png"
                       alt="A professional cleaner in an empty, spotless modern apartment."
                       fill
                       className="object-cover"

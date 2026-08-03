@@ -121,12 +121,6 @@ const TESTIMONIALS = [
     type: "Gym & Facility Disinfection",
     text: "Keeping our fitness gym disinfected is crucial for member health. Bond Clean Specialist sanitises all equipment, locker room showers, and rubber mats to hospital-grade standards. Exceptional work!",
     image: "/images/testimonials/client-4.jpg"
-  },
-  {
-    name: "Jessica Taylor",
-    type: "AirBnB Turnaround Clean",
-    text: "Managing short-term rentals on the Gold Coast requires fast turnarounds. Bond Clean Specialist consistently delivers hotel-standard presentation between guests. My reviews have been 5 stars ever since!",
-    image: "/images/testimonials/client-5.jpg"
   }
 ];
 
@@ -228,7 +222,7 @@ export default function LandingPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const newErrors: Record<string, string> = {};
-    
+
     if (!formData.name.trim()) newErrors.name = "Name is required.";
     if (!formData.email.trim()) {
       newErrors.email = "Email Address is required.";
@@ -383,11 +377,10 @@ export default function LandingPage() {
                             placeholder="Full Name"
                             value={formData.name}
                             onChange={handleInputChange}
-                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${
-                              errors.name 
-                                ? "border-2 border-red-500 bg-white" 
+                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.name
+                                ? "border-2 border-red-500 bg-white"
                                 : formData.name ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
-                            }`}
+                              }`}
                           />
                           {errors.name && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.name}</p>}
                         </div>
@@ -400,11 +393,10 @@ export default function LandingPage() {
                             placeholder="Email Address"
                             value={formData.email}
                             onChange={handleInputChange}
-                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${
-                              errors.email 
-                                ? "border-2 border-red-500 bg-white" 
+                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.email
+                                ? "border-2 border-red-500 bg-white"
                                 : formData.email ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
-                            }`}
+                              }`}
                           />
                           {errors.email && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.email}</p>}
                         </div>
@@ -417,11 +409,10 @@ export default function LandingPage() {
                             placeholder="Phone Number"
                             value={formData.phone}
                             onChange={handleInputChange}
-                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${
-                              errors.phone 
-                                ? "border-2 border-red-500 bg-white" 
+                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.phone
+                                ? "border-2 border-red-500 bg-white"
                                 : formData.phone ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
-                            }`}
+                              }`}
                           />
                           {errors.phone && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.phone}</p>}
                         </div>
@@ -434,11 +425,10 @@ export default function LandingPage() {
                             placeholder="Suburb / Location"
                             value={formData.location}
                             onChange={handleInputChange}
-                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${
-                              errors.location 
-                                ? "border-2 border-red-500 bg-white" 
+                            className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.location
+                                ? "border-2 border-red-500 bg-white"
                                 : formData.location ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
-                            }`}
+                              }`}
                           />
                           {errors.location && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.location}</p>}
                         </div>
@@ -453,11 +443,10 @@ export default function LandingPage() {
                                   type="button"
                                   key={service.id}
                                   onClick={() => handleServiceToggle(service.id)}
-                                  className={`rounded-xl p-2 flex flex-col items-center justify-center gap-1 sm:gap-2 text-center transition-all duration-200 min-h-[70px] sm:min-h-[85px] ${
-                                    isSelected
+                                  className={`rounded-xl p-2 flex flex-col items-center justify-center gap-1 sm:gap-2 text-center transition-all duration-200 min-h-[70px] sm:min-h-[85px] ${isSelected
                                       ? "bg-[#1a2b4b] text-white shadow-md"
                                       : "bg-[#e4e5e7] text-[#1a2b4b] hover:bg-[#d6d8db]"
-                                  }`}
+                                    }`}
                                 >
                                   <div className="mb-0.5 sm:mb-1 scale-90 sm:scale-100">{service.icon}</div>
                                   <span className="text-[10px] sm:text-xs font-bold leading-[1.1] sm:leading-tight">{service.name}</span>
@@ -631,7 +620,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/bond-cleaning-v2.jpg"
+                    src="/images/services/bond-cleaning.png"
                     alt="Bond Cleaning"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
