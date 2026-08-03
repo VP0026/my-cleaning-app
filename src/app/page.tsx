@@ -99,46 +99,46 @@ const BRISBANE_SUBURBS = [
 
 const TESTIMONIALS = [
   {
-    name: "Melanie P",
-    type: "Bond Cleaning",
-    text: "Bond Clean Specialist Gold Coast team did an amazing job on our property. They were professional, efficient, and left the place spotless. Highly recommended for stress-free bond cleaning.",
-    image: "/images/testimonials/customer_1.png"
+    name: "Sarah Jenkins",
+    type: "100% Bond Refund Secured",
+    text: "Bond Clean Specialist handled our end-of-lease clean in Surfers Paradise. The property manager praised how spotless the oven and bathroom tiles were. Got our entire bond deposit back within 48 hours!",
+    image: "/images/testimonials/client-1.jpg"
   },
   {
-    name: "Steve Hawkins",
-    type: "Move-Out / End-of-Lease Cleaning",
-    text: "We were blown away by the Bond Clean Specialist Gold Coast team. They were thorough, friendly, and ensured our apartment sparkled for the move-out inspection. Highly recommend for a hassle-free experience.",
-    image: "/images/testimonials/customer_2.png"
+    name: "David Miller",
+    type: "Commercial Office Cleaning",
+    text: "We hired them for regular office cleaning at our Robina headquarters. The workstations, breakrooms, and glass entryways are always sparkling. Super reliable team that never misses a detail.",
+    image: "/images/testimonials/client-2.jpg"
   },
   {
-    name: "Chantel D",
+    name: "Emily Watson",
     type: "Carpet Steam Cleaning",
-    text: "Exceptional carpet steam cleaning service in Brisbane. The team arrived on time and transformed our dirty carpets into like-new condition. Thorough, efficient, and with no sticky residue left behind. Highly recommended.",
-    image: "/images/testimonials/customer_3.png"
+    text: "Outstanding carpet steam cleaning service in Brisbane! They successfully extracted years of stubborn coffee stains and pet dander from our living room rugs. Smells fresh and dried surprisingly fast.",
+    image: "/images/testimonials/client-3.jpg"
   },
   {
-    name: "Ethan Wilson",
-    type: "Builder / Post-Construction Cleaning",
-    text: "Bond Clean Specialist Services provided a top-quality builder clean on our Gold Coast home. They removed all construction dust and debris with great attention to detail. Professional, punctual, and left the property sparkling.",
-    image: "/images/testimonials/customer_4.png"
+    name: "Marcus Vance",
+    type: "Gym & Facility Disinfection",
+    text: "Keeping our fitness gym disinfected is crucial for member health. Bond Clean Specialist sanitises all equipment, locker room showers, and rubber mats to hospital-grade standards. Exceptional work!",
+    image: "/images/testimonials/client-4.jpg"
   },
   {
-    name: "Rose Harrison",
-    type: "Bond Back Result",
-    text: "Fantastic end-of-lease cleaning in the Gold Coast. The team was thorough and ensured our property passed inspection with flying colours. I received my full bond back. Great communication and competitive pricing — would definitely use again.",
-    image: "/images/testimonials/customer_5.png"
+    name: "Jessica Taylor",
+    type: "AirBnB Turnaround Clean",
+    text: "Managing short-term rentals on the Gold Coast requires fast turnarounds. Bond Clean Specialist consistently delivers hotel-standard presentation between guests. My reviews have been 5 stars ever since!",
+    image: "/images/testimonials/client-5.jpg"
   },
   {
-    name: "Liam Thomas",
-    type: "Upholstery & Deep Cleaning",
-    text: "Bond Clean Specialist transformed our Gold Coast home with their upholstery and deep cleaning services. The team was skilled, friendly, and meticulous. Our furniture looks refreshed and the house feels noticeably cleaner.",
-    image: "/images/testimonials/customer_6.png"
+    name: "Robert Gallagher",
+    type: "Post-Construction Builder Clean",
+    text: "They completed a post-renovation builder clean for our new home in Broadbeach. Removed every trace of plaster dust, paint spots, and window smudges. Highly professional and punctual team.",
+    image: "/images/testimonials/client-6.jpg"
   },
   {
-    name: "Cooper Patrick",
-    type: "Painting Services",
-    text: "James Painting Services did an excellent job on our Gold Coast property. The team was professional and efficient, and the paintwork looks flawless with impressive attention to detail. Highly recommended for quality painting services.",
-    image: "/images/testimonials/customer_7.png"
+    name: "Chloe Sterling",
+    type: "Pest Control & Spring Cleaning",
+    text: "Combined their spring deep cleaning with flea pest control. The results exceeded our expectations! Every corner, baseboard, and light fitting was detailed to perfection. Worth every dollar.",
+    image: "/images/testimonials/client-7.jpg"
   }
 ];
 
@@ -279,7 +279,7 @@ export default function LandingPage() {
             playsInline
             className="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-0"
           >
-            <source src="/Bond_Cleaning_Hero_Video_Generated.mp4" type="video/mp4" />
+            <source src="/hero-cleaning-background-v2.mp4" type="video/mp4" />
           </video>
 
           {/* Overlay */}
@@ -292,6 +292,21 @@ export default function LandingPage() {
                 {/* Left Column: Heading and Info */}
                 <div className="max-w-2xl text-center lg:text-left mx-auto lg:ml-0 order-2 lg:order-1 text-white">
                   <div className="backdrop-blur-sm bg-black/40 border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl">
+                    <div className="flex items-center gap-3 mb-4 p-2 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10">
+                      <div className="relative w-14 h-10 rounded-xl overflow-hidden shrink-0 border border-white/20">
+                        <Image
+                          src="/images/team-members-v2.jpg"
+                          alt="Official Bond Clean Specialist Team"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-xs font-bold text-amber-400 uppercase tracking-wider">Official Cleaning Team</p>
+                        <p className="text-xs text-slate-200">Local Gold Coast &amp; Brisbane Specialists</p>
+                      </div>
+                    </div>
+
                     <button className="mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary border border-primary/50 text-white font-semibold shadow-lg text-xs sm:text-sm animate-pulse-glow">
                       <span className="flex h-2 w-2 relative">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
@@ -509,7 +524,7 @@ export default function LandingPage() {
               <div className="relative flex flex-col items-center">
                 <div className="relative aspect-[4/3] w-full max-w-xl rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
                   <Image
-                    src="/images/why-choose-us-team.png"
+                    src="/images/team-members-v2.jpg"
                     alt="Professional Cleaning Team"
                     fill
                     className="object-cover"
@@ -628,7 +643,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/bond-cleaning.png"
+                    src="/images/services/bond-cleaning-v2.jpg"
                     alt="Bond Cleaning"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -654,7 +669,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/carpet-cleaning.png"
+                    src="/images/services/carpet-cleaning-v2.jpg"
                     alt="Carpet Cleaning"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -680,7 +695,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/spring-cleaning.png"
+                    src="/images/services/spring-cleaning-v2.jpg"
                     alt="Spring Cleaning"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -706,7 +721,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/pest-control.png"
+                    src="/images/services/pest-control-v2.jpg"
                     alt="Pest Control"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -715,7 +730,7 @@ export default function LandingPage() {
                 </div>
                 <div className="p-6 flex-grow flex flex-col">
                   <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
-                    Pest Control & Flea Treatment
+                    Pest Control &amp; Flea Treatment
                   </h3>
                   <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
                     Professional, licensed pest control services to keep your property free of fleas and crawling insects.
@@ -730,10 +745,14 @@ export default function LandingPage() {
 
               {/* Service 5: Oven & BBQ */}
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
-                <div className="relative h-48 sm:h-56 w-full overflow-hidden bg-slate-200">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                    <Sparkles className="h-16 w-16 text-primary/45" />
-                  </div>
+                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+                  <Image
+                    src="/images/services/oven-bbq-cleaning-v2.jpg"
+                    alt="Oven & BBQ Cleaning"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
                 <div className="p-6 flex-grow flex flex-col">
                   <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
@@ -752,10 +771,14 @@ export default function LandingPage() {
 
               {/* Service 6: Airbnb */}
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
-                <div className="relative h-48 sm:h-56 w-full overflow-hidden bg-slate-200">
-                  <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-primary/10 flex items-center justify-center">
-                    <ShieldCheck className="h-16 w-16 text-accent/45" />
-                  </div>
+                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+                  <Image
+                    src="/images/services/airbnb-cleaning-v2.jpg"
+                    alt="AirBnB Cleaning"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
                 <div className="p-6 flex-grow flex flex-col">
                   <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
@@ -766,6 +789,84 @@ export default function LandingPage() {
                   </p>
                   <div className="pt-4 mt-auto border-t border-slate-100">
                     <a href="/services#airbnb-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
+                      Learn More <ChevronRight className="h-4 w-4" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Service 7: Gym Clean */}
+              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
+                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+                  <Image
+                    src="/images/services/gym-cleaning.jpg"
+                    alt="Gym Clean"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
+                </div>
+                <div className="p-6 flex-grow flex flex-col">
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
+                    Gym Clean
+                  </h3>
+                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
+                    High-grade sanitisation for fitness equipment, locker rooms, showers, and rubber gym mats.
+                  </p>
+                  <div className="pt-4 mt-auto border-t border-slate-100">
+                    <a href="/services#gym-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
+                      Learn More <ChevronRight className="h-4 w-4" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Service 8: Office Cleaning */}
+              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
+                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+                  <Image
+                    src="/images/services/office-cleaning.jpg"
+                    alt="Office Cleaning"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
+                </div>
+                <div className="p-6 flex-grow flex flex-col">
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
+                    Office Cleaning
+                  </h3>
+                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
+                    Custom commercial office cleaning schedules for workstations, breakrooms, and corporate spaces.
+                  </p>
+                  <div className="pt-4 mt-auto border-t border-slate-100">
+                    <a href="/services#office-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
+                      Learn More <ChevronRight className="h-4 w-4" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Service 9: Pub & Hospitality Clean */}
+              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
+                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+                  <Image
+                    src="/images/services/pub-hospitality-cleaning.jpg"
+                    alt="Pub & Hospitality Clean"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
+                </div>
+                <div className="p-6 flex-grow flex flex-col">
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
+                    Pub &amp; Hospitality Clean
+                  </h3>
+                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
+                    Deep bar counter degreasing, dining floor sanitation, and commercial kitchen hygiene.
+                  </p>
+                  <div className="pt-4 mt-auto border-t border-slate-100">
+                    <a href="/services#pub-hospitality-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
                       Learn More <ChevronRight className="h-4 w-4" />
                     </a>
                   </div>

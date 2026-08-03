@@ -148,6 +148,30 @@ export default function Header({ activePage }: HeaderProps) {
                     >
                       Removalist
                     </a>
+                    <a
+                      href="/services#gym-cleaning"
+                      className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
+                    >
+                      Gym Clean
+                    </a>
+                    <a
+                      href="/services#office-cleaning"
+                      className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
+                    >
+                      Office Cleaning
+                    </a>
+                    <a
+                      href="/services#pub-hospitality-cleaning"
+                      className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
+                    >
+                      Pub &amp; Hospitality Clean
+                    </a>
+                    <a
+                      href="/services#retail-store-cleaning"
+                      className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
+                    >
+                      Retail Store Cleaning
+                    </a>
                   </div>
                 </div>
               )}
@@ -360,6 +384,56 @@ export default function Header({ activePage }: HeaderProps) {
                     className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
                   >
                     Pool Maintenance
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setMobileServicesOpen(false);
+                    }}
+                    href="/services#removalist"
+                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
+                  >
+                    Removalist
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setMobileServicesOpen(false);
+                    }}
+                    href="/services#gym-cleaning"
+                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
+                  >
+                    Gym Clean
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setMobileServicesOpen(false);
+                    }}
+                    href="/services#office-cleaning"
+                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
+                  >
+                    Office Cleaning
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setMobileServicesOpen(false);
+                    }}
+                    href="/services#pub-hospitality-cleaning"
+                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
+                  >
+                    Pub &amp; Hospitality Clean
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setMobileServicesOpen(false);
+                    }}
+                    href="/services#retail-store-cleaning"
+                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
+                  >
+                    Retail Store Cleaning
                   </a>
                 </div>
               )}

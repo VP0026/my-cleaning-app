@@ -37,7 +37,11 @@ import {
   Truck,
   PackageOpen,
   Droplet,
-  RefreshCcw
+  RefreshCcw,
+  Dumbbell,
+  Building2,
+  Wine,
+  ShoppingBag
 } from "lucide-react";
 
 // Custom SVG brand icons (removed in Lucide v1.x)
@@ -162,7 +166,7 @@ export default function ServicesPage() {
                 <div className="order-1 lg:order-2">
                   <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                     <Image
-                      src="/images/services/bond-cleaning.png"
+                      src="/images/services/bond-cleaning-v2.jpg"
                       alt="A professional cleaner in an empty, spotless modern apartment."
                       fill
                       className="object-cover"
@@ -179,7 +183,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/carpet-cleaning.png"
+                    src="/images/services/carpet-cleaning-v2.jpg"
                     alt="Professional steam cleaning a luxury carpet."
                     fill
                     className="object-cover"
@@ -290,7 +294,7 @@ export default function ServicesPage() {
                 <div className="order-1 lg:order-2">
                   <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                     <Image
-                      src="/images/services/spring-cleaning.png"
+                      src="/images/services/spring-cleaning-v2.jpg"
                       alt="Sunlight streaming into a beautifully organized and sparkling clean bedroom."
                       fill
                       className="object-cover"
@@ -307,7 +311,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/pest-control.png"
+                    src="/images/services/pest-control-v2.jpg"
                     alt="Professional pest control technician inspecting a home."
                     fill
                     className="object-cover"
@@ -418,7 +422,7 @@ export default function ServicesPage() {
                 <div className="order-1 lg:order-2">
                   <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                     <Image
-                      src="/images/services/oven-bbq-cleaning.png"
+                      src="/images/services/oven-bbq-cleaning-v2.jpg"
                       alt="A sparkling clean oven interior and stainless steel BBQ grill after professional cleaning."
                       fill
                       className="object-cover"
@@ -435,7 +439,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/airbnb-cleaning.png"
+                    src="/images/services/airbnb-cleaning-v2.jpg"
                     alt="A beautifully prepared AirBnB property with fresh linen and immaculate surfaces."
                     fill
                     className="object-cover"
@@ -546,7 +550,7 @@ export default function ServicesPage() {
                 <div className="order-1 lg:order-2">
                   <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                     <Image
-                      src="/images/services/deep-cleaning.png"
+                      src="/images/services/deep-cleaning-v2.jpg"
                       alt="A professional cleaner deep cleaning a luxury kitchen."
                       fill
                       className="object-cover"
@@ -563,7 +567,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/builder-cleaning.png"
+                    src="/images/services/builder-cleaning-v2.jpg"
                     alt="Spotless newly constructed modern home after builders clean."
                     fill
                     className="object-cover"
@@ -672,7 +676,7 @@ export default function ServicesPage() {
 
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/upholstery-cleaning.jpg"
+                    src="/images/services/upholstery-cleaning-v2.jpg"
                     alt="Professional upholstery cleaning in a bright living room."
                     fill
                     className="object-cover"
@@ -687,7 +691,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/pressure-washing.jpg"
+                    src="/images/services/pressure-washing-v2.jpg"
                     alt="High-powered pressure washing removing grime from a driveway."
                     fill
                     className="object-cover"
@@ -776,7 +780,7 @@ export default function ServicesPage() {
 
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/pool-maintenance.png"
+                    src="/images/services/pool-maintenance-v2.jpg"
                     alt="A sparkling clean outdoor pool on a sunny day."
                     fill
                     className="object-cover"
@@ -791,7 +795,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/removalist.png"
+                    src="/images/services/removalist-v2.jpg"
                     alt="A modern moving truck and neatly stacked boxes outside a home."
                     fill
                     className="object-cover"
@@ -831,6 +835,222 @@ export default function ServicesPage() {
                     className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
                   >
                     <span>Book Removalist</span>
+                    <CircleCheckBig className="h-5 w-5" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Service 13: Gym Clean */}
+          <section id="gym-cleaning" className="py-20 sm:py-28 bg-white scroll-mt-20">
+            <div className="container mx-auto px-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-heading">Gym Clean</h2>
+                  <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+                    Fitness facilities require rigorous, high-grade sanitisation to protect members from bacteria and odors. Our specialized gym cleaning team disinfects all equipment, mats, weights, and high-touch areas thoroughly.
+                  </p>
+
+                  <div className="space-y-6 mb-8">
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Dumbbell className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Equipment Disinfection</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Hospital-grade sanitisation of all cardio machines, free weights, benches, and rubber flooring mats.</p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <ShieldCheck className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Locker Room Sanitisation</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Deep scrubbing and steam cleaning of showers, changing rooms, and vanity areas.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
+                  >
+                    <span>Book Gym Clean</span>
+                    <CircleCheckBig className="h-5 w-5" />
+                  </button>
+                </div>
+
+                <div className="order-1 lg:order-2">
+                  <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                    <Image
+                      src="/images/services/gym-cleaning.jpg"
+                      alt="A spotless, disinfected modern fitness gym."
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Service 14: Office Cleaning */}
+          <section id="office-cleaning" className="py-20 sm:py-28 bg-slate-50 scroll-mt-20">
+            <div className="container mx-auto px-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                  <Image
+                    src="/images/services/office-cleaning.jpg"
+                    alt="A clean, professional modern office workspace."
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <div>
+                  <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-heading">Office Cleaning</h2>
+                  <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+                    A clean office boosts productivity and creates a healthy environment for your staff and clients. We offer customizable commercial office cleaning schedules tailored to your business operations.
+                  </p>
+
+                  <div className="space-y-6 mb-8">
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Building2 className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Desk &amp; Workstation Sanitisation</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Dusting and wiping keyboards, monitors, phones, and conference room tables.</p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Sparkles className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Kitchenette &amp; Restroom Maintenance</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Daily or weekly sanitising of communal breakrooms, microwaves, and staff bathrooms.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
+                  >
+                    <span>Book Office Cleaning</span>
+                    <CircleCheckBig className="h-5 w-5" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Service 15: Pub & Hospitality Clean */}
+          <section id="pub-hospitality-cleaning" className="py-20 sm:py-28 bg-white scroll-mt-20">
+            <div className="container mx-auto px-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-heading">Pub &amp; Hospitality Clean</h2>
+                  <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+                    Bars, pubs, and restaurants demand high hygiene standards to comply with health regulations and provide an excellent guest experience. We deliver deep commercial kitchen degreasing, dining area cleaning, and bar counter maintenance.
+                  </p>
+
+                  <div className="space-y-6 mb-8">
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Wine className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Bar &amp; Seating Degreasing</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Deep scrubbing of sticky bar counters, draft beer spill zones, and dining furniture.</p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <ShieldCheck className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Commercial Health Audit Standard</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Sanitising kitchen floors, stainless steel equipment, and customer washrooms to food authority standards.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
+                  >
+                    <span>Book Hospitality Clean</span>
+                    <CircleCheckBig className="h-5 w-5" />
+                  </button>
+                </div>
+
+                <div className="order-1 lg:order-2">
+                  <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                    <Image
+                      src="/images/services/pub-hospitality-cleaning.jpg"
+                      alt="A pristine, spotless pub bar and restaurant dining interior."
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Service 16: Retail Store Cleaning */}
+          <section id="retail-store-cleaning" className="py-20 sm:py-28 bg-slate-50 scroll-mt-20">
+            <div className="container mx-auto px-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                  <Image
+                    src="/images/services/retail-store-cleaning.jpg"
+                    alt="A clean, polished retail store interior with shiny floors."
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <div>
+                  <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-heading">Retail Store Cleaning</h2>
+                  <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+                    First impressions matter in retail. We keep your shop floors glistening, glass displays streak-free, and fitting rooms immaculate to welcome your shoppers every day.
+                  </p>
+
+                  <div className="space-y-6 mb-8">
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <ShoppingBag className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">Storefront Glass &amp; Display Polishing</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Crystal-clear window cleaning and fingerprint-free glass display cases.</p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Droplets className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-slate-800 mb-1 text-base">High-Shine Floor Care</h3>
+                        <p className="text-sm text-slate-500 leading-relaxed">Mopping, vacuuming, and buffing vinyl, tile, or hardwood retail floors to perfection.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
+                  >
+                    <span>Book Retail Cleaning</span>
                     <CircleCheckBig className="h-5 w-5" />
                   </button>
                 </div>
@@ -886,6 +1106,10 @@ export default function ServicesPage() {
                 <li><a className="hover:text-primary transition-colors" href="/services#airbnb-cleaning">AirBnB Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#deep-cleaning">Deep Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#builder-cleaning">Builder Cleaning</a></li>
+                <li><a className="hover:text-primary transition-colors" href="/services#gym-cleaning">Gym Clean</a></li>
+                <li><a className="hover:text-primary transition-colors" href="/services#office-cleaning">Office Cleaning</a></li>
+                <li><a className="hover:text-primary transition-colors" href="/services#pub-hospitality-cleaning">Pub &amp; Hospitality Clean</a></li>
+                <li><a className="hover:text-primary transition-colors" href="/services#retail-store-cleaning">Retail Store Cleaning</a></li>
               </ul>
             </div>
 

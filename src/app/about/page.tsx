@@ -76,7 +76,7 @@ export default function AboutPage() {
               </div>
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl w-full bg-slate-100">
                 <Image
-                  src="/images/why-choose-us-team.png"
+                  src="/images/team-members-v2.jpg"
                   alt="A friendly team of professional cleaners smiling."
                   fill
                   className="object-cover animate-in fade-in zoom-in-95 duration-500"
