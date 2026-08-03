@@ -99,9 +99,9 @@ const BRISBANE_SUBURBS = [
 
 const TESTIMONIALS = [
   {
-    name: "Sarah Jenkins",
-    type: "100% Bond Refund Secured",
-    text: "Bond Clean Specialist handled our end-of-lease clean in Surfers Paradise. The property manager praised how spotless the oven and bathroom tiles were. Got our entire bond deposit back within 48 hours!",
+    name: "Sarah M",
+    type: "Bond Cleaning",
+    text: "With kids + packing, I had zero time. The team handled the entire bond clean in 1 day. Super friendly and the results were amazing. Will use again. Highly Recommended !!",
     image: "/images/testimonials/client-1.jpg"
   },
   {
@@ -127,18 +127,6 @@ const TESTIMONIALS = [
     type: "AirBnB Turnaround Clean",
     text: "Managing short-term rentals on the Gold Coast requires fast turnarounds. Bond Clean Specialist consistently delivers hotel-standard presentation between guests. My reviews have been 5 stars ever since!",
     image: "/images/testimonials/client-5.jpg"
-  },
-  {
-    name: "Robert Gallagher",
-    type: "Post-Construction Builder Clean",
-    text: "They completed a post-renovation builder clean for our new home in Broadbeach. Removed every trace of plaster dust, paint spots, and window smudges. Highly professional and punctual team.",
-    image: "/images/testimonials/client-6.jpg"
-  },
-  {
-    name: "Chloe Sterling",
-    type: "Pest Control & Spring Cleaning",
-    text: "Combined their spring deep cleaning with flea pest control. The results exceeded our expectations! Every corner, baseboard, and light fitting was detailed to perfection. Worth every dollar.",
-    image: "/images/testimonials/client-7.jpg"
   }
 ];
 
@@ -669,7 +657,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/carpet-cleaning-v2.jpg"
+                    src="/images/services/carpet-cleaning.png"
                     alt="Carpet Cleaning"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
