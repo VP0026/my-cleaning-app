@@ -721,7 +721,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/pest-control-v2.jpg"
+                    src="/images/services/pest-control.png"
                     alt="Pest Control"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"

@@ -311,7 +311,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/pest-control-v2.jpg"
+                    src="/images/services/pest-control.png"
                     alt="Professional pest control technician inspecting a home."
                     fill
                     className="object-cover"
@@ -691,7 +691,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/pressure-washing-v2.jpg"
+                    src="/images/services/pressure-washing.jpg"
                     alt="High-powered pressure washing removing grime from a driveway."
                     fill
                     className="object-cover"
