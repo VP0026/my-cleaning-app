@@ -8,7 +8,6 @@ import {
   Bug,
   Leaf,
   Check,
-  Flame,
   BedDouble,
   Layers,
   Hammer,
@@ -16,6 +15,10 @@ import {
   Droplets,
   LifeBuoy,
   Truck,
+  Dumbbell,
+  Building2,
+  Wine,
+  ShoppingBag,
 } from "lucide-react";
 
 interface Service {
@@ -29,7 +32,6 @@ const SERVICES: Service[] = [
   { id: "carpet", name: "Carpet Steam Cleaning", icon: <Waves className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "spring", name: "Spring Cleaning", icon: <Leaf className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "pest", name: "Pest Control / Flea", icon: <Bug className="h-4 w-4 sm:h-5 sm:w-5" /> },
-  { id: "oven", name: "Oven & BBQ Cleaning", icon: <Flame className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "airbnb", name: "AirBnB Cleaning", icon: <BedDouble className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "deep", name: "Deep Cleaning", icon: <Layers className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "builder", name: "Builder Cleaning", icon: <Hammer className="h-4 w-4 sm:h-5 sm:w-5" /> },
@@ -37,6 +39,10 @@ const SERVICES: Service[] = [
   { id: "pressure", name: "Pressure Washing", icon: <Droplets className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "pool", name: "Pool Maintenance", icon: <LifeBuoy className="h-4 w-4 sm:h-5 sm:w-5" /> },
   { id: "removalist", name: "Removalist", icon: <Truck className="h-4 w-4 sm:h-5 sm:w-5" /> },
+  { id: "gym", name: "Gym Clean", icon: <Dumbbell className="h-4 w-4 sm:h-5 sm:w-5" /> },
+  { id: "office", name: "Office Cleaning", icon: <Building2 className="h-4 w-4 sm:h-5 sm:w-5" /> },
+  { id: "pub", name: "Pub & Bar Clean", icon: <Wine className="h-4 w-4 sm:h-5 sm:w-5" /> },
+  { id: "retail", name: "Retail Store Clean", icon: <ShoppingBag className="h-4 w-4 sm:h-5 sm:w-5" /> },
 ];
 
 interface QuoteModalProps {

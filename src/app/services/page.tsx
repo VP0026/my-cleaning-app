@@ -368,70 +368,6 @@ export default function ServicesPage() {
             </div>
           </section>
 
-          {/* Service 5: Oven & BBQ Cleaning */}
-          <section id="oven-bbq-cleaning" className="py-20 sm:py-28 bg-white scroll-mt-20">
-            <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                <div className="order-2 lg:order-1">
-                  <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-heading">Oven &amp; BBQ Cleaning</h2>
-                  <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                    Restore your oven and BBQ to like-new condition with our professional degreasing service. We remove heavy build-up, carbon residue, and stubborn grease using powerful food-safe cleaning agents.
-                  </p>
-
-                  <div className="space-y-6 mb-8">
-                    <div className="flex gap-4">
-                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                        <Flame className="h-5 w-5" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-slate-800 mb-1 text-base">Deep Degreasing</h3>
-                        <p className="text-sm text-slate-500 leading-relaxed">Powerful, safe degreasers break down heavy carbon build-up, grease, and baked-on residue.</p>
-                      </div>
-                    </div>
-
-                    <div className="flex gap-4">
-                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                        <UtensilsCrossed className="h-5 w-5" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-slate-800 mb-1 text-base">Rack &amp; Grill Cleaning</h3>
-                        <p className="text-sm text-slate-500 leading-relaxed">Thorough scrubbing of all racks, grates, burners, and internal surfaces to restore shine.</p>
-                      </div>
-                    </div>
-
-                    <div className="flex gap-4">
-                      <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                        <ShieldCheck className="h-5 w-5" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-slate-800 mb-1 text-base">Food-Safe Products</h3>
-                        <p className="text-sm text-slate-500 leading-relaxed">We use non-toxic, food-safe cleaning agents so your appliances are safe the moment we finish.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={() => window.dispatchEvent(new CustomEvent('open-quote-modal'))}
-                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-slate-900 transition-all hover:-translate-y-0.5"
-                  >
-                    <span>Book Oven &amp; BBQ Cleaning</span>
-                    <CircleCheckBig className="h-5 w-5" />
-                  </button>
-                </div>
-
-                <div className="order-1 lg:order-2">
-                  <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
-                    <Image
-                      src="/images/services/oven-bbq-cleaning-v2.jpg"
-                      alt="A sparkling clean oven interior and stainless steel BBQ grill after professional cleaning."
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
 
           {/* Service 6: AirBnB Cleaning */}
           <section id="airbnb-cleaning" className="py-20 sm:py-28 bg-slate-50 scroll-mt-20">
@@ -1145,7 +1081,6 @@ export default function ServicesPage() {
                 <li><a className="hover:text-primary transition-colors" href="/services#carpet-cleaning">Carpet Steam Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#spring-cleaning">Spring Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#pest-control">Pest Control &amp; Flea Treatment</a></li>
-                <li><a className="hover:text-primary transition-colors" href="/services#oven-bbq-cleaning">Oven &amp; BBQ Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#airbnb-cleaning">AirBnB Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#deep-cleaning">Deep Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#builder-cleaning">Builder Cleaning</a></li>

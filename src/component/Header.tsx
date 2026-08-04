@@ -101,12 +101,6 @@ export default function Header({ activePage }: HeaderProps) {
                       Pest Control &amp; Flea Treatment
                     </a>
                     <a
-                      href="/services#oven-bbq-cleaning"
-                      className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
-                    >
-                      Oven &amp; BBQ Cleaning
-                    </a>
-                    <a
                       href="/services#airbnb-cleaning"
                       className="px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary rounded-xl transition-all"
                     >
@@ -314,16 +308,6 @@ export default function Header({ activePage }: HeaderProps) {
                     className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
                   >
                     Pest Control &amp; Flea Treatment
-                  </a>
-                  <a
-                    onClick={() => {
-                      setMobileMenuOpen(false);
-                      setMobileServicesOpen(false);
-                    }}
-                    href="/services#oven-bbq-cleaning"
-                    className="py-1.5 text-sm font-semibold text-slate-500 hover:text-primary transition-all"
-                  >
-                    Oven &amp; BBQ Cleaning
                   </a>
                   <a
                     onClick={() => {

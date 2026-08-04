@@ -720,31 +720,6 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Service 5: Oven & BBQ */}
-              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
-                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
-                  <Image
-                    src="/images/services/oven-bbq-cleaning-v2.jpg"
-                    alt="Oven & BBQ Cleaning"
-                    fill
-                    className="object-contain transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
-                </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
-                    Oven &amp; BBQ Cleaning
-                  </h3>
-                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
-                    Professional degreasing and detailed restoration of ovens, cooktops, and BBQ grills to sparkling condition.
-                  </p>
-                  <div className="pt-4 mt-auto border-t border-slate-100">
-                    <a href="/services#oven-bbq-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
-                      Learn More <ChevronRight className="h-4 w-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
 
               {/* Service 6: Airbnb */}
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
@@ -1339,7 +1314,6 @@ export default function LandingPage() {
                 <li><a className="hover:text-primary transition-colors" href="/services#carpet-cleaning">Carpet Steam Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#spring-cleaning">Spring Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#pest-control">Pest Control &amp; Flea Treatment</a></li>
-                <li><a className="hover:text-primary transition-colors" href="/services#oven-bbq-cleaning">Oven &amp; BBQ Cleaning</a></li>
                 <li><a className="hover:text-primary transition-colors" href="/services#airbnb-cleaning">AirBnB Cleaning</a></li>
               </ul>
             </div>
