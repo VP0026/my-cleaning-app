@@ -747,33 +747,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Service 7: Gym Clean */}
-              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
-                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
-                  <Image
-                    src="/images/services/GymCleaning.png"
-                    alt="Gym Clean"
-                    fill
-                    className="object-contain transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
-                </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
-                    Gym Clean
-                  </h3>
-                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
-                    High-grade sanitisation for fitness equipment, locker rooms, showers, and rubber gym mats.
-                  </p>
-                  <div className="pt-4 mt-auto border-t border-slate-100">
-                    <a href="/services#gym-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
-                      Learn More <ChevronRight className="h-4 w-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Service 8: Office Cleaning */}
+              {/* Service 6: Office Cleaning */}
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
@@ -793,32 +767,6 @@ export default function LandingPage() {
                   </p>
                   <div className="pt-4 mt-auto border-t border-slate-100">
                     <a href="/services#office-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
-                      Learn More <ChevronRight className="h-4 w-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Service 9: Pub & Hospitality Clean */}
-              <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
-                <div className="relative h-48 sm:h-56 w-full overflow-hidden">
-                  <Image
-                    src="/images/services/PubCleaning.jpg"
-                    alt="Pub & Hospitality Clean"
-                    fill
-                    className="object-contain transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/10 transition-colors"></div>
-                </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors mb-2">
-                    Pub &amp; Hospitality Clean
-                  </h3>
-                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed flex-grow">
-                    Deep bar counter degreasing, dining floor sanitation, and commercial kitchen hygiene.
-                  </p>
-                  <div className="pt-4 mt-auto border-t border-slate-100">
-                    <a href="/services#pub-hospitality-cleaning" className="text-primary hover:text-accent font-semibold text-sm flex items-center gap-1.5">
                       Learn More <ChevronRight className="h-4 w-4" />
                     </a>
                   </div>
