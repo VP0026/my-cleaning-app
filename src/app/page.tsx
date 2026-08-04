@@ -105,9 +105,9 @@ const TESTIMONIALS = [
     image: "/images/testimonials/client-1.jpg"
   },
   {
-    name: "David Miller",
-    type: "Commercial Office Cleaning",
-    text: "We hired them for regular office cleaning at our Robina headquarters. The workstations, breakrooms, and glass entryways are always sparkling. Super reliable team that never misses a detail.",
+    name: "Melanie P",
+    type: "Bond Cleaning",
+    text: "Great experience from start to finish. The cleaners arrived on time, worked efficiently and left the place looking better than I expected. They were polite, professional and very easy to deal with. It really took a weight off my shoulders during the move. Highly Recommended!!",
     image: "/images/testimonials/client-2.jpg"
   },
   {
@@ -259,7 +259,7 @@ export default function LandingPage() {
             loop
             muted
             playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-0"
+            className="absolute top-0 left-0 w-full h-full object-contain opacity-60 z-0"
           >
             <source src="/hero-cleaning-background-v2.mp4" type="video/mp4" />
           </video>
@@ -280,7 +280,7 @@ export default function LandingPage() {
                           src="/images/team-members-v2.jpg"
                           alt="Official Bond Clean Specialist Team"
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                       </div>
                       <div>
@@ -378,8 +378,8 @@ export default function LandingPage() {
                             value={formData.name}
                             onChange={handleInputChange}
                             className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.name
-                                ? "border-2 border-red-500 bg-white"
-                                : formData.name ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
+                              ? "border-2 border-red-500 bg-white"
+                              : formData.name ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
                               }`}
                           />
                           {errors.name && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.name}</p>}
@@ -394,8 +394,8 @@ export default function LandingPage() {
                             value={formData.email}
                             onChange={handleInputChange}
                             className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.email
-                                ? "border-2 border-red-500 bg-white"
-                                : formData.email ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
+                              ? "border-2 border-red-500 bg-white"
+                              : formData.email ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
                               }`}
                           />
                           {errors.email && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.email}</p>}
@@ -410,8 +410,8 @@ export default function LandingPage() {
                             value={formData.phone}
                             onChange={handleInputChange}
                             className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.phone
-                                ? "border-2 border-red-500 bg-white"
-                                : formData.phone ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
+                              ? "border-2 border-red-500 bg-white"
+                              : formData.phone ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
                               }`}
                           />
                           {errors.phone && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.phone}</p>}
@@ -426,8 +426,8 @@ export default function LandingPage() {
                             value={formData.location}
                             onChange={handleInputChange}
                             className={`flex h-10 sm:h-11 w-full rounded-xl px-3 sm:px-4 py-1.5 text-[#1a2b4b] placeholder:text-[#8ba0c9] focus:outline-none transition-all text-sm sm:text-base font-medium ${errors.location
-                                ? "border-2 border-red-500 bg-white"
-                                : formData.location ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
+                              ? "border-2 border-red-500 bg-white"
+                              : formData.location ? "border-2 border-[#1a2b4b] bg-[#f8f9fa] focus:ring-4 focus:ring-[#1a2b4b]/10 shadow-[0_0_10px_rgba(26,43,75,0.2)]" : "border border-transparent bg-[#e4e5e7] focus:bg-[#f8f9fa] focus:border-[#1a2b4b]"
                               }`}
                           />
                           {errors.location && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.location}</p>}
@@ -444,8 +444,8 @@ export default function LandingPage() {
                                   key={service.id}
                                   onClick={() => handleServiceToggle(service.id)}
                                   className={`rounded-xl p-2 flex flex-col items-center justify-center gap-1 sm:gap-2 text-center transition-all duration-200 min-h-[70px] sm:min-h-[85px] ${isSelected
-                                      ? "bg-[#1a2b4b] text-white shadow-md"
-                                      : "bg-[#e4e5e7] text-[#1a2b4b] hover:bg-[#d6d8db]"
+                                    ? "bg-[#1a2b4b] text-white shadow-md"
+                                    : "bg-[#e4e5e7] text-[#1a2b4b] hover:bg-[#d6d8db]"
                                     }`}
                                 >
                                   <div className="mb-0.5 sm:mb-1 scale-90 sm:scale-100">{service.icon}</div>
@@ -504,7 +504,7 @@ export default function LandingPage() {
                     src="/images/team-members-v2.jpg"
                     alt="Professional Cleaning Team"
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <div className="mt-8 flex justify-center">
@@ -620,10 +620,10 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/bond-cleaning.png"
+                    src="/images/services/BondCleaning.jpeg"
                     alt="Bond Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -649,7 +649,7 @@ export default function LandingPage() {
                     src="/images/services/carpet-cleaning.png"
                     alt="Carpet Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -672,10 +672,10 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/spring-cleaning-v2.jpg"
+                    src="/images/services/SpringCleaning.jpeg"
                     alt="Spring Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -698,10 +698,10 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/pest-control.png"
+                    src="/images/services/PestControl.jpeg"
                     alt="Pest Control"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -727,7 +727,7 @@ export default function LandingPage() {
                     src="/images/services/oven-bbq-cleaning-v2.jpg"
                     alt="Oven & BBQ Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -753,7 +753,7 @@ export default function LandingPage() {
                     src="/images/services/airbnb-cleaning-v2.jpg"
                     alt="AirBnB Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -776,10 +776,10 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/gym-cleaning.jpg"
+                    src="/images/services/professional-cleaners.webp"
                     alt="Gym Clean"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -805,7 +805,7 @@ export default function LandingPage() {
                     src="/images/services/office-cleaning.jpg"
                     alt="Office Cleaning"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -831,7 +831,7 @@ export default function LandingPage() {
                     src="/images/services/pub-hospitality-cleaning.jpg"
                     alt="Pub & Hospitality Clean"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-colors"></div>
                 </div>
@@ -1071,7 +1071,7 @@ export default function LandingPage() {
                         src="/images/how-it-works-1-quote.png"
                         alt="Request a Quote"
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
@@ -1096,7 +1096,7 @@ export default function LandingPage() {
                         src="/images/how-it-works-2-confirm.png"
                         alt="Get Confirmation"
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
@@ -1121,7 +1121,7 @@ export default function LandingPage() {
                         src="/images/how-it-works-3-clean.png"
                         alt="We Clean"
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
@@ -1145,7 +1145,7 @@ export default function LandingPage() {
                         src="/images/how-it-works-4-ready.png"
                         alt="Inspection Ready"
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
@@ -1199,7 +1199,7 @@ export default function LandingPage() {
                               src={t.image}
                               alt={t.name}
                               fill
-                              className="object-cover"
+                              className="object-contain"
                               sizes="56px"
                             />
                           </div>
