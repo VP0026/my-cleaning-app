@@ -252,7 +252,7 @@ export default function LandingPage() {
       <main className="flex-grow pt-16 pb-20 md:pb-0">
 
         {/* Section 1: Hero & Form */}
-        <section id="form-section" className="relative min-h-[100dvh] w-full flex flex-col overflow-hidden bg-slate-950">
+        <section id="form-section" className="relative min-h-[80vh] w-full flex flex-col overflow-hidden bg-slate-950">
           {/* Background Video */}
           <video
             autoPlay
@@ -267,7 +267,7 @@ export default function LandingPage() {
           {/* Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/30 sm:to-transparent z-10"></div>
 
-          <div className="relative flex-1 flex items-center py-12 sm:py-24 z-20">
+          <div className="relative flex-1 flex items-center py-8 sm:py-16 z-20">
             <div className="container mx-auto px-4 w-full">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
 
@@ -750,7 +750,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/airbnb-cleaning-v2.jpg"
+                    src="/images/services/AirbnbCleaning.png"
                     alt="AirBnB Cleaning"
                     fill
                     className="object-contain transition-transform duration-700 group-hover:scale-105"
@@ -776,7 +776,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/professional-cleaners.webp"
+                    src="/images/services/GymCleaning.png"
                     alt="Gym Clean"
                     fill
                     className="object-contain transition-transform duration-700 group-hover:scale-105"
@@ -802,7 +802,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/office-cleaning.jpg"
+                    src="/images/services/OfficeCleaning.png"
                     alt="Office Cleaning"
                     fill
                     className="object-contain transition-transform duration-700 group-hover:scale-105"
@@ -828,7 +828,7 @@ export default function LandingPage() {
               <div className="group flex flex-col bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1.5">
                 <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                   <Image
-                    src="/images/services/pub-hospitality-cleaning.jpg"
+                    src="/images/services/PubCleaning.jpg"
                     alt="Pub & Hospitality Clean"
                     fill
                     className="object-contain transition-transform duration-700 group-hover:scale-105"

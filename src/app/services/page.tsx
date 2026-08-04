@@ -439,7 +439,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <Image
-                    src="/images/services/airbnb-cleaning-v2.jpg"
+                    src="/images/services/AirbnbCleaning.png"
                     alt="A beautifully prepared AirBnB property with fresh linen and immaculate surfaces."
                     fill
                     className="object-contain"
